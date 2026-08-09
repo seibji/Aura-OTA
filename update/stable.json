@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "appId": "com.aura.app",
   "release": {
-    "versionCode": 10201,
-    "versionName": "1.2.1",
+    "versionCode": 10202,
+    "versionName": "1.2.2",
     "channel": "stable",
     "minSupportedVersionCode": 1,
     "minSdk": 26,
@@ -20,14 +20,15 @@
     "percentage": 100
   },
   "apk": {
-    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.2.1/app-arm64-v8a-release.apk",
-    "size": 29535335,
-    "sha256": "a771f52ceb9e34e08db8c0cde2cf26bcebfcd9d4cb3939dc082f98d96d2c971b",
+    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.2.2/app-arm64-v8a-release.apk",
+    "size": 29535331,
+    "sha256": "42cf1b295492818f99d5cb806e9aae56b90d7239801e11b1723b27c3d03f53ff",
     "supportedAbis": [
       "arm64-v8a"
     ]
   },
   "changelog": [
+    "- fix(home): la barra de progreso de Meta diaria se apilaba ENCIMA del reloj y el texto (Box de AuraCard) — envuelto en Column",
     "- fix(ci): exit 0 explícito en scripts PS de manifest para no fallar por LASTEXITCODE null",
     "- ci: reintentar release OTA con secretos de firma actualizados",
     "- fix(home): texto de meta diaria responsivo (envuelve en 2 líneas sin pisar el reloj)",

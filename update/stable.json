@@ -1,48 +1,44 @@
 {
-  "schemaVersion": 2,
-  "appId": "com.aura.app",
-  "release": {
-    "versionCode": 10202,
-    "versionName": "1.2.2",
-    "channel": "stable",
-    "minSupportedVersionCode": 1,
-    "minSdk": 26,
-    "maxSdk": null,
-    "mandatory": false,
-    "enabled": true,
-    "expiresAt": null,
-    "priority": "normal",
-    "deadline": null,
-    "allowedWindow": null
-  },
-  "rollout": {
-    "enabled": false,
-    "percentage": 100
-  },
-  "apk": {
-    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.2.2/app-arm64-v8a-release.apk",
-    "size": 29535331,
-    "sha256": "42cf1b295492818f99d5cb806e9aae56b90d7239801e11b1723b27c3d03f53ff",
-    "supportedAbis": [
-      "arm64-v8a"
-    ]
-  },
-  "changelog": [
-    "- fix(home): la barra de progreso de Meta diaria se apilaba ENCIMA del reloj y el texto (Box de AuraCard) — envuelto en Column",
-    "- fix(ci): exit 0 explícito en scripts PS de manifest para no fallar por LASTEXITCODE null",
-    "- ci: reintentar release OTA con secretos de firma actualizados",
-    "- fix(home): texto de meta diaria responsivo (envuelve en 2 líneas sin pisar el reloj)",
-    "- fix(build): añadir ic_launcher_foreground para todas las densidades (des-ignorado)",
-    "- fix(ci): marcar gradlew como ejecutable (100755) para runners Linux",
-    "- chore(ci): añadir script gradlew para runners Linux",
-    "- feat(settings): soporte multi-API-key con ojo ver/ocultar y cascada",
-    "- fix(ci): extraer versión bootstrap con el formato releaseVersion*Override ?:",
-    "- feat(ai): rotación diaria de modelos gratuitos OpenRouter con cascada automática",
-    "- feat: release automation OTA y unificación de conversación guiada",
-    "- fix: validate and normalize release keystore base64",
-    "- fix: harden OTA release workflow",
-    "- Merge remote-tracking branch 'origin/main'",
-    "- chore: add Aura source and OTA release workflow",
-    "- Initial commit"
-  ]
+    "schemaVersion":  2,
+    "appId":  "com.aura.app",
+    "release":  {
+                    "versionCode":  10203,
+                    "versionName":  "1.2.3",
+                    "channel":  "stable",
+                    "minSupportedVersionCode":  1,
+                    "minSdk":  26,
+                    "maxSdk":  null,
+                    "mandatory":  false,
+                    "enabled":  true,
+                    "expiresAt":  null,
+                    "priority":  "normal",
+                    "deadline":  null,
+                    "allowedWindow":  null
+                },
+    "rollout":  {
+                    "enabled":  false,
+                    "percentage":  100
+                },
+    "apk":  {
+                "url":  "https://github.com/seibji/Aura-OTA/releases/download/v1.2.3/app-arm64-v8a-release.apk",
+                "size":  31919733,
+                "sha256":  "ca2fe52d3c979a4494a5cb613591b26a94dd6013f33e6e56ab090fdf7e0666b7",
+                "supportedAbis":  [
+                                      "arm64-v8a"
+                                  ]
+            },
+    "changelog":  [
+                      "- fix(home): la barra de progreso de Meta diaria se apilaba ENCIMA del reloj y el texto (Box de AuraCard) â€” envuelto en Column",
+                      "- fix(ci): exit 0 explÃ­cito en scripts PS de manifest para no fallar por LASTEXITCODE null",
+                      "- ci: reintentar release OTA con secretos de firma actualizados",
+                      "- fix(home): texto de meta diaria responsivo (envuelve en 2 lÃ­neas sin pisar el reloj)",
+                      "- fix(build): aÃ±adir ic_launcher_foreground para todas las densidades (des-ignorado)",
+                      "- fix(ci): marcar gradlew como ejecutable (100755) para runners Linux",
+                      "- chore(ci): aÃ±adir script gradlew para runners Linux",
+                      "- feat(settings): soporte multi-API-key con ojo ver/ocultar y cascada",
+                      "- fix(ci): extraer versiÃ³n bootstrap con el formato releaseVersion*Override ?:",
+                      "- feat(ai): rotaciÃ³n diaria de modelos gratuitos OpenRouter con cascada automÃ¡tica",
+                      "- feat: release automation OTA y unificaciÃ³n de conversaciÃ³n guiada",
+                      "- fix: validate and normalize release keystore base64"
+                  ]
 }

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "appId": "com.aura.app",
+  "release": {
+    "versionCode": 260850,
+    "versionName": "1.0.0",
+    "channel": "stable",
+    "minSupportedVersionCode": 1,
+    "minSdk": 26,
+    "maxSdk": null,
+    "mandatory": false,
+    "enabled": true,
+    "expiresAt": null,
+    "priority": "normal",
+    "deadline": null,
+    "allowedWindow": null
+  },
+  "rollout": {
+    "enabled": false,
+    "percentage": 100
+  },
+  "apk": {
+    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.0.0-dev-260850/app-arm64-v8a-staging.apk",
+    "size": 45724357,
+    "sha256": "782dc11f877664fcf6e91faa69e77a195a5789da16d50d83663e9c9f9bc99a7d",
+    "supportedAbis": ["arm64-v8a"]
+  },
+  "changelog": [
+    "Pantallas responsivas en tablets y landscape",
+    "Altura adaptativa en traductor",
+    "Limpieza de logs y archivos innecesarios"
+  ]
+}

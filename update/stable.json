@@ -1,33 +1,49 @@
 {
-  "schemaVersion": 2,
-  "appId": "com.aura.app",
-  "release": {
-    "versionCode": 260850,
-    "versionName": "1.0.0",
-    "channel": "stable",
-    "minSupportedVersionCode": 1,
-    "minSdk": 26,
-    "maxSdk": null,
-    "mandatory": false,
-    "enabled": true,
-    "expiresAt": null,
-    "priority": "normal",
-    "deadline": null,
-    "allowedWindow": null
-  },
-  "rollout": {
-    "enabled": false,
-    "percentage": 100
-  },
-  "apk": {
-    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.0.0-dev-260850/app-arm64-v8a-staging.apk",
-    "size": 45724357,
-    "sha256": "782dc11f877664fcf6e91faa69e77a195a5789da16d50d83663e9c9f9bc99a7d",
-    "supportedAbis": ["arm64-v8a"]
-  },
-  "changelog": [
-    "Pantallas responsivas en tablets y landscape",
-    "Altura adaptativa en traductor",
-    "Limpieza de logs y archivos innecesarios"
-  ]
+    "schemaVersion":  2,
+    "appId":  "com.aura.app",
+    "release":  {
+                    "versionCode":  260851,
+                    "versionName":  "1.3.0",
+                    "channel":  "stable",
+                    "minSupportedVersionCode":  1,
+                    "minSdk":  26,
+                    "maxSdk":  null,
+                    "mandatory":  false,
+                    "enabled":  true,
+                    "expiresAt":  null,
+                    "priority":  "normal",
+                    "deadline":  null,
+                    "allowedWindow":  null
+                },
+    "rollout":  {
+                    "enabled":  false,
+                    "percentage":  100
+                },
+    "apk":  {
+                "url":  "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260851/app-arm64-v8a-release.apk",
+                "size":  48237023,
+                "sha256":  "de672c7af8a2964aad21e2c9eeec9959151aac3a0f839d1ba4a0f983f28d2ea7",
+                "supportedAbis":  [
+                                      "arm64-v8a"
+                                  ]
+            },
+    "changelog":  [
+                      "- fix(ota): reglas ProGuard para libreria Ed25519 (firma valida en release) + check silencioso sin dialogo de error",
+                      "- fix(home): la barra de progreso de Meta diaria se apilaba ENCIMA del reloj y el texto (Box de AuraCard) â€” envuelto en Column",
+                      "- fix(ci): exit 0 explÃ­cito en scripts PS de manifest para no fallar por LASTEXITCODE null",
+                      "- ci: reintentar release OTA con secretos de firma actualizados",
+                      "- fix(home): texto de meta diaria responsivo (envuelve en 2 lÃ­neas sin pisar el reloj)",
+                      "- fix(build): aÃ±adir ic_launcher_foreground para todas las densidades (des-ignorado)",
+                      "- fix(ci): marcar gradlew como ejecutable (100755) para runners Linux",
+                      "- chore(ci): aÃ±adir script gradlew para runners Linux",
+                      "- feat(settings): soporte multi-API-key con ojo ver/ocultar y cascada",
+                      "- fix(ci): extraer versiÃ³n bootstrap con el formato releaseVersion*Override ?:",
+                      "- feat(ai): rotaciÃ³n diaria de modelos gratuitos OpenRouter con cascada automÃ¡tica",
+                      "- feat: release automation OTA y unificaciÃ³n de conversaciÃ³n guiada",
+                      "- fix: validate and normalize release keystore base64",
+                      "- fix: harden OTA release workflow",
+                      "- Merge remote-tracking branch \u0027origin/main\u0027",
+                      "- chore: add Aura source and OTA release workflow",
+                      "- Initial commit"
+                  ]
 }

@@ -2,7 +2,7 @@
     "schemaVersion":  2,
     "appId":  "com.aura.app",
     "release":  {
-                    "versionCode":  260851,
+                    "versionCode":  260852,
                     "versionName":  "1.3.0",
                     "channel":  "stable",
                     "minSupportedVersionCode":  1,
@@ -20,9 +20,9 @@
                     "percentage":  100
                 },
     "apk":  {
-                "url":  "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260851/app-arm64-v8a-release.apk",
+                "url":  "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260852/app-arm64-v8a-release.apk",
                 "size":  48237023,
-                "sha256":  "de672c7af8a2964aad21e2c9eeec9959151aac3a0f839d1ba4a0f983f28d2ea7",
+                "sha256":  "7c1f056ca910d860e69759c4ebd302c295016b55b9f7a0bd2f7eabf2e1fe7aca",
                 "supportedAbis":  [
                                       "arm64-v8a"
                                   ]

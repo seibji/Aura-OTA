@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "appId": "com.aura.app",
   "release": {
-    "versionCode": 260855,
+    "versionCode": 260856,
     "versionName": "1.3.0",
     "channel": "stable",
     "minSupportedVersionCode": 1,
@@ -20,14 +20,16 @@
     "percentage": 100
   },
   "apk": {
-    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260855/app-arm64-v8a-release.apk",
-    "size": 49625644,
-    "sha256": "fad5ca3828d9ee1ee1f9c720225a1a5c4ce261bb7e130ad12279431a84c165ee",
+    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260856/app-arm64-v8a-release.apk",
+    "size": 49625496,
+    "sha256": "20818b601c6896655037750421878e4e76113783af6d58d9fc97d372fb6e60a7",
     "supportedAbis": [
       "arm64-v8a"
     ]
   },
   "changelog": [
+    "- refactor: quitar comprobaciones de versión muertas (minSdk 26)",
+    "- refactor: quitar el skin \"wood\" muerto y corregir permiso Bluetooth en lint",
     "- refactor: eliminar consultas DAO sin consumidores",
     "- refactor: eliminar puente de memoria semántica obsoleto y restos huérfanos",
     "- refactor: eliminar capa de inteligencia conversacional huérfana y shims",
@@ -55,8 +57,6 @@
     "- chore(ci): añadir script gradlew para runners Linux",
     "- feat(settings): soporte multi-API-key con ojo ver/ocultar y cascada",
     "- fix(ci): extraer versión bootstrap con el formato releaseVersion*Override ?:",
-    "- feat(ai): rotación diaria de modelos gratuitos OpenRouter con cascada automática",
-    "- feat: release automation OTA y unificación de conversación guiada",
-    "- fix: validate and normalize release keystore base64"
+    "- feat(ai): rotación diaria de modelos gratuitos OpenRouter con cascada automática"
   ]
 }

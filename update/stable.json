@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "appId": "com.aura.app",
   "release": {
-    "versionCode": 260856,
+    "versionCode": 260857,
     "versionName": "1.3.0",
     "channel": "stable",
     "minSupportedVersionCode": 1,
@@ -20,14 +20,17 @@
     "percentage": 100
   },
   "apk": {
-    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260856/app-arm64-v8a-release.apk",
-    "size": 49625496,
-    "sha256": "20818b601c6896655037750421878e4e76113783af6d58d9fc97d372fb6e60a7",
+    "url": "https://github.com/seibji/Aura-OTA/releases/download/v1.3.0-dev-260857/app-arm64-v8a-release.apk",
+    "size": 50652058,
+    "sha256": "593a7e2d8aea9b2078123b47f0481d81deb8782c44aa93c251261aae61f5d8b9",
     "supportedAbis": [
       "arm64-v8a"
     ]
   },
   "changelog": [
+    "- build(deps): subir AndroidX/Compose/Room a la era 2025 (Kotlin 2.1)",
+    "- build(deps): migrar toolchain a Kotlin 2.1.0 + KSP 2.1.0 + Hilt 2.53.1",
+    "- build(deps): actualizar AndroidX y Compose a la era estable (sin tocar toolchain)",
     "- refactor: quitar comprobaciones de versión muertas (minSdk 26)",
     "- refactor: quitar el skin \"wood\" muerto y corregir permiso Bluetooth en lint",
     "- refactor: eliminar consultas DAO sin consumidores",
@@ -54,9 +57,6 @@
     "- fix(home): texto de meta diaria responsivo (envuelve en 2 líneas sin pisar el reloj)",
     "- fix(build): añadir ic_launcher_foreground para todas las densidades (des-ignorado)",
     "- fix(ci): marcar gradlew como ejecutable (100755) para runners Linux",
-    "- chore(ci): añadir script gradlew para runners Linux",
-    "- feat(settings): soporte multi-API-key con ojo ver/ocultar y cascada",
-    "- fix(ci): extraer versión bootstrap con el formato releaseVersion*Override ?:",
-    "- feat(ai): rotación diaria de modelos gratuitos OpenRouter con cascada automática"
+    "- chore(ci): añadir script gradlew para runners Linux"
   ]
 }
